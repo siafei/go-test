@@ -1,0 +1,20 @@
+[app]
+  name = "MC www"
+  env = "debug"
+  static_domain = "./"
+
+[http.server]
+  port = "8080"
+
+[database.mysql]
+  host = "test"
+  port = 3306
+  database = "youfb"
+  user = "root"
+  password = "123456"
+  connection_max = 1000
+
+[logging]
+  log_path = "logs/"
+  log_file = "request.log"
+  error_log_file = "error.log"

@@ -1,0 +1,20 @@
+[app]
+  name = "MC www"
+  env = "debug"
+  static_domain = "./"
+
+[http.server]
+  port = "8080"
+
+[database.mysql]
+  host = "114.215.139.30"
+  port = 3306
+  database = "go-test"
+  user = "root"
+  password = "jiubugeiniyong"
+  connection_max = 1000
+
+[logging]
+  log_path = "logs/"
+  log_file = "request.log"
+  error_log_file = "error.log"

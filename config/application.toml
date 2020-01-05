@@ -1,0 +1,20 @@
+[app]
+  name = "MC www2"
+  env = "debug"
+  static_domain = "./"
+
+[http.server]
+  port = "8080"
+
+[database.mysql]
+  host = "localhost"
+  port = 3306
+  database = ""
+  user = ""
+  password = ""
+  connection_max = 1000
+
+[logging]
+  log_path = "logs/"
+  log_file = "request.log"
+  error_log_file = "error.log"

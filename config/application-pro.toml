@@ -1,0 +1,20 @@
+[app]
+  name = "MC www"
+  env = "release"
+  static_domain = "//s.youfenba.com/www/"
+
+[http.server]
+  port = "8080"
+
+[database.mysql]
+  host = "rm-bp11s9208g0k490ly.mysql.rds.aliyuncs.com"
+  port = 3306
+  database = "youfb"
+  user = "youfb"
+  password = "fs7HjnGBtik2Ol4i"
+  connection_max = 1000
+
+[logging]
+  log_path = "logs/"
+  log_file = "request.log"
+  error_log_file = "error.log"
