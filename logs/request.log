@@ -5,7 +5,7 @@
  - using code:	gin.SetMode(gin.ReleaseMode)
 
 [GIN-debug] GET    /                         --> go-test/routes.registerWeb.func1 (3 handlers)
-[GIN-debug] GET    /api/v1/                  --> go-test/app/controller/api/demo.Index (3 handlers)
-[GIN-debug] POST   /api/v1/login             --> go-test/app/controller/api/demo.Login (3 handlers)
-[GIN-debug] POST   /api/v1/register          --> go-test/app/controller/api/demo.Register (3 handlers)
-[GIN] 2020/01/05 - 22:34:07 | 200 |  176.016373ms |       127.0.0.1 | POST     /api/v1/register
+[GIN-debug] GET    /api/v1/                  --> go-test/app/controller/api/demo.Index (4 handlers)
+[GIN-debug] POST   /api/v1/login             --> go-test/app/controller/api/demo.Login (4 handlers)
+[GIN-debug] POST   /api/v1/register          --> go-test/app/controller/api/demo.Register (4 handlers)
+[GIN] 2020/01/14 - 14:47:25 | 400 |    1.224329ms |       127.0.0.1 | GET      /api/v1/

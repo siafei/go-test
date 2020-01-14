@@ -4,10 +4,12 @@ import(
 	"github.com/gin-gonic/gin"
 	"golang.org/x/crypto/bcrypt"
 	"go-test/app/models"
+	"go-test/bootstrap"
 )
 
 
 func Index(c *gin.Context)  {
+	panic(bootstrap.OptionError("犯个错看看"))
 	c.JSON(200, gin.H{
 		"message": "api home",
 	})
