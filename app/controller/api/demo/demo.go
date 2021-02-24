@@ -10,9 +10,9 @@ import(
 
 func Index(c *gin.Context)  {
 	panic(bootstrap.OptionError("犯个错看看"))
-	c.JSON(200, gin.H{
-		"message": "api home",
-	})
+	// c.JSON(200, gin.H{
+	// 	"message": "api home",
+	// })
 }
 
 func Login(c *gin.Context)  {

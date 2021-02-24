@@ -4,11 +4,11 @@ import (
 	"context"
 	"flag"
 	"github.com/gin-gonic/gin"
+	. "go-test/bootstrap"
+	. "go-test/config"
+	. "go-test/routes"
 	"io"
 	"log"
-	."go-test/config"
-	."go-test/routes"
-	."go-test/bootstrap"
 	"net/http"
 	"os"
 	"os/signal"
@@ -16,7 +16,6 @@ import (
 )
 
 func main() {
-
 	runMode := flag.String("mode", "dev", "run mode")
 	flag.Parse()
 	InitConfig(*runMode)
